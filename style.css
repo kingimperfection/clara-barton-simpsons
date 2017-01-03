@@ -1,0 +1,63 @@
+#header {
+    width: 100%;   
+    border: 1px solid black;
+}
+
+#profile-picture {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#title {
+    float: left;   
+    margin-left: 50px;
+}
+
+#sidebar {
+    border: 1px solid black;
+    width: 25%;
+    height: 500px;
+    float: left;
+}
+
+#main {
+    border: 1px solid black;
+    width: 74%;
+    height: 500px;
+    float: left;
+}
+
+#wall {
+    text-align: center;
+}
+
+#interests {
+    margin-left: 10px;   
+}
+
+.post {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.post-image {
+ height: 50px;
+ width: 50px;
+ float: left;
+}
+
+.post-text {
+    float: left;   
+}
+
+#footer {
+    float: right;   
+}
+
+#header:after, .post:after {
+    clear: both;
+    display: table;
+    content: "";
+}
