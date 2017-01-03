@@ -12,17 +12,18 @@
 #title {
     float: left;   
     margin-left: 50px;
+    background-color: pink
 }
 
 #sidebar {
-    border: 1px solid black;
+    border: 1px solid blue;
     width: 25%;
     height: 500px;
     float: left;
 }
 
 #main {
-    border: 1px solid black;
+    border: 1px solid blue;
     width: 74%;
     height: 500px;
     float: left;
@@ -37,7 +38,7 @@
 }
 
 .post {
-    border: 1px solid black;
+    border: 1px solid blue;
     margin: 5px;
     padding: 5px;
 }
@@ -46,10 +47,12 @@
  height: 50px;
  width: 50px;
  float: left;
+ background-image:solid blue;
 }
 
 .post-text {
-    float: left;   
+    float: left; 
+    background-image:solid red;
 }
 
 #footer {
@@ -60,4 +63,7 @@
     clear: both;
     display: table;
     content: "";
+}
+body {
+    background-color:pink;
 }
