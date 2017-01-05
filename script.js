@@ -19,10 +19,6 @@ $(document).ready(function() {
         alert("Now it's Marge's time to shine!");
     });
 
-    $("#maggie img").click(function(){
-        $("#maggie img").attr("src","https://i.ytimg.com/vi/PcuSG6TAMhA/maxresdefault.jpg");
-    });
-
     $('#donuts').click(function() {
         $('img').attr('src', 'http://images.huffingtonpost.com/2016-05-31-1464712425-4101817-donut_day_deals_and_freebies.jpg');
     });
