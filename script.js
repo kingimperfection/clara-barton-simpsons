@@ -19,10 +19,6 @@ $(document).ready(function() {
         alert("Now it's Marge's time to shine!");
     });
 
-    $('#donuts').click(function() {
-        $('img').attr('src', 'http://images.huffingtonpost.com/2016-05-31-1464712425-4101817-donut_day_deals_and_freebies.jpg');
-    });
-
     $("#nuclear").click(function() {
         $("#profile-picture").attr("src", "http://www.heyuguys.com/images/2010/01/nuclear-mushroom-cloud.jpg");
     });

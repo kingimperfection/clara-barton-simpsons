@@ -66,3 +66,7 @@
 body {
     background-color:pink;
 }
+
+button {
+  margin-left: 20px;
+}
