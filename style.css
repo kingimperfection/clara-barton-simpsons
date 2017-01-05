@@ -1,5 +1,5 @@
 #header {
-    width: 100%;   
+    width: 100%;
     border: 1px solid black;
 }
 
@@ -10,7 +10,7 @@
 }
 
 #title {
-    float: left;   
+    float: left;
     margin-left: 50px;
     background-color: pink
 }
@@ -34,7 +34,7 @@
 }
 
 #interests {
-    margin-left: 10px;   
+    margin-left: 10px;
 }
 
 .post {
@@ -44,19 +44,19 @@
 }
 
 .post-image {
- height: 50px;
- width: 50px;
- float: left;
- background-image:solid blue;
+   height: 50px;
+   width: 50px;
+   float: left;
+   background-image:solid blue;
 }
 
 .post-text {
-    float: left; 
-    background-image:solid red;
+   float: left;
+   background-image:solid red;
 }
 
 #footer {
-    float: right;   
+    float: right;
 }
 
 #header:after, .post:after {
@@ -64,6 +64,7 @@
     display: table;
     content: "";
 }
+
 body {
     background-color:pink;
 }
